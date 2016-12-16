@@ -1,0 +1,42 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arial';
+}
+
+#toolbar {
+    width: 500px;
+    height: 75px;
+    background-color: azure;
+    color: darkblue;
+    padding: 0px;   
+    margin: auto;
+    border-top: solid 2px darkblue;
+    border-bottom: solid 2px darkblue;
+}
+
+#penTitle {
+    margin-bottom: 5px;    
+}
+
+#toolbar p {
+    line-height: 10%;
+    
+}
+
+#main {
+    width: 500px;
+    margin: auto;
+    padding: 10px;    
+    border: none;
+    
+}
+
+#inputbox {
+    width: 500px;
+    margin-bottom: 20px;
+    font-size: 150%;
+    resize: vertical;
+    autocapitalize: 'characters';
+    min-height: 75px;
+}
